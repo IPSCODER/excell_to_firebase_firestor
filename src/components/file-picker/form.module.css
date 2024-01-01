@@ -1,0 +1,31 @@
+.filePicker{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filePicker input[type="file"]::-webkit-file-upload-button {
+    background: #ED1C1B;
+    border: 2px solid #ED1C1B;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: all 1s ease;
+  }
+
+.filePicker button{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #555555;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
